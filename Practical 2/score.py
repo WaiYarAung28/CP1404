@@ -1,6 +1,7 @@
 """
 CP1404/CP5632 - Practical
 determine score status
+https://github.com/WaiYarAung28/CP1404
 """
 score = float(input("Enter score: "))
 def main():
