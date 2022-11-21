@@ -1,4 +1,7 @@
-"""https://github.com/WaiYarAung28/CP1404"""
+"""
+CP1404- Practical
+https://github.com/WaiYarAung28/CP1404
+"""
 password = (input("Enter passwords: "))
 def main():
     get_password(password)
