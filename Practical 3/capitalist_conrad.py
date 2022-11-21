@@ -21,7 +21,7 @@ OUTPUT_FILE = "capitalist_conrad.txt"
 
 price = INITIAL_PRICE
 print(f"Starting price: ${price:,.2f}")
-
+out_file = open(OUTPUT_FILE, 'w')
 while MIN_PRICE <= price <= MAX_PRICE:
     price_change = 0
     # generate a random integer of 1 or 2
@@ -39,7 +39,6 @@ while MIN_PRICE <= price <= MAX_PRICE:
     number_of_days += 1
     print(f"On day {number_of_days} price is: ${price:,.2f}")
 
-out_file = open(OUTPUT_FILE, 'w')
-print(f"${price:,.2f}", file=out_file)
+    print(f"${price:,.2f}", file=out_file)
 out_file.close()
 
