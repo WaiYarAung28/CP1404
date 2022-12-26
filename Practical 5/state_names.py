@@ -1,5 +1,6 @@
 """
-CP1404 Practical
+CP1404Practical
+State names in a dictionary
 """
 
 CODE_TO_NAME = {"QLD": "Queensland", "NSW": "New South Wales",
