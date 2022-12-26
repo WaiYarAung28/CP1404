@@ -1,7 +1,7 @@
 """CP1404 Practical"""
 
 
-from prac_06.car import Car
+from Prac_06.car import Car
 
 
 def main():

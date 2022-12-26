@@ -2,7 +2,7 @@
 CP1404 Practical
 Basic manual tests for Guitar class
 """
-from prac_06.guitar import Guitar
+from Prac_06.guitar import Guitar
 
 CURRENT_YEAR = 2017
 

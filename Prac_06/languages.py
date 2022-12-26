@@ -2,7 +2,7 @@
 CP1404 Practicaln
 Programming Language client code.
 """
-from prac_06.programming_language import ProgrammingLanguage
+from Prac_06.programming_language import ProgrammingLanguage
 
 
 def main():
